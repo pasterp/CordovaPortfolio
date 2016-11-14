@@ -27,8 +27,9 @@ var ProjetsDao = function () {
         getProjet : function (id) {
             for(i in dao.listeProjets) {
                 var projet = dao.listeProjets[i];
-                if (projet.id = id)
+                if (projet.id == id){
                     return projet
+                }
             }
         }
     };

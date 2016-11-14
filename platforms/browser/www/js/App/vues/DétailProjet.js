@@ -7,8 +7,16 @@ var DetailProjetVue = function(dao) {
 
     var vue = {
         afficher : function(id) {
-            $('#content').load("./views/detail-view.html", function (data) {
-
+            $('#template-loader').load("./views/detail-view.html", function (data) {
+                var projet = dao.getProjet(id);
+                $('#content').html(
+                    data
+                        .replace(/\{\{PROJET_TITRE\}\}/g, projet.nomProjet)
+                        .replace(/\{\{PROJET_DESCRIPTION\}\}/g, projet.descriptionProjet)
+                        .replace(/\{\{PROJET_LIEN\}\}/g, projet.lienProjet)
+                        .replace(/\{\{PROJET_IMAGE\}\}/g, projet.photoProjet)
+                        .replace(/\{\{PROJET_ID\}\}/g, projet.id)
+                )
             });
         }
     };
