@@ -4,10 +4,11 @@
     <description>
         Simple app to show your different project with a portfolio like.
     </description>
-    <author email="pascal.phelipot@gmail.com" href="http://cordova.io">
+    <author email="pascal.phelipot@gmail.com" href="https://phelipot.me">
         Pascal P.
     </author>
     <content src="index.html" />
+    <icon src="www/img/favicon.png" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />

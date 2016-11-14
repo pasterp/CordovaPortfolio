@@ -18,7 +18,12 @@ var app = {
     onDeviceReady: function() {
         controller = new Controller();
 
-        setTimeout(function() { controller.renderListeVue(); }, 500);
+        $(window).on('hashchange', function() {
+            controller.hashChanged(window.location.hash);
+        });
+
+
+        setTimeout(function() { controller.hashChanged(); }, 500);
     }
 };
 app.initialize();

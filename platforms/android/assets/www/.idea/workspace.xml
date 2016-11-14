@@ -2,81 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090c6140-5d0f-47d4-8a0f-4cd4830f2353" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/img/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/bootstrap-flex.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/bootstrap-flex.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/bootstrap-flex.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/bootstrap-flex.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/controlleurs/controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/donnees/ProjetDao.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/vues/ListeProjets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/views/liste-view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/views/templates/ProjetCard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/bootstrap-flex.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/bootstrap-flex.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/bootstrap-flex.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/bootstrap-flex.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-flex.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-flex.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-flex.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-flex.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/card.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/css/.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/css/.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/build/package.zip" afterPath="$PROJECT_DIR$/../platforms/browser/build/package.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../config.xml" afterPath="$PROJECT_DIR$/../config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/config.xml" afterPath="$PROJECT_DIR$/../platforms/browser/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/config.xml" afterPath="$PROJECT_DIR$/../platforms/browser/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/donnees/ProjetDao.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/donnees/ProjetDao.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/../platforms/browser/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/js/App/app.js" afterPath="$PROJECT_DIR$/../platforms/browser/www/js/App/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/js/App/donnees/ProjetDao.js" afterPath="$PROJECT_DIR$/../platforms/browser/www/js/App/donnees/ProjetDao.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/js/App/vues/ListeProjets.js" afterPath="$PROJECT_DIR$/../platforms/browser/www/js/App/vues/ListeProjets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/views/liste-view.html" afterPath="$PROJECT_DIR$/../platforms/browser/www/views/liste-view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/views/templates/ProjetCard.html" afterPath="$PROJECT_DIR$/../platforms/browser/www/views/templates/ProjetCard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App/app.js" afterPath="$PROJECT_DIR$/js/App/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App/donnees/ProjetDao.js" afterPath="$PROJECT_DIR$/js/App/donnees/ProjetDao.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App/vues/ListeProjets.js" afterPath="$PROJECT_DIR$/js/App/vues/ListeProjets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/liste-view.html" afterPath="$PROJECT_DIR$/views/liste-view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/templates/ProjetCard.html" afterPath="$PROJECT_DIR$/views/templates/ProjetCard.html" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -134,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjetDao.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProjetDao.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/App/donnees/ProjetDao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="187" selection-start-line="23" selection-start-column="187" selection-end-line="23" selection-end-column="187" />
+            <state relative-caret-position="300">
+              <caret line="22" column="127" selection-start-line="22" selection-start-column="127" selection-end-line="22" selection-end-column="127" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -183,11 +122,11 @@
         <option value="$PROJECT_DIR$/js/App/vues/templates/ProjetCard.html" />
         <option value="$PROJECT_DIR$/views/liste-view.html" />
         <option value="$PROJECT_DIR$/js/App/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/card.css" />
         <option value="$PROJECT_DIR$/js/App/vues/ListeProjets.js" />
         <option value="$PROJECT_DIR$/views/templates/ProjetCard.html" />
         <option value="$PROJECT_DIR$/js/App/donnees/ProjetDao.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -391,20 +330,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -483,12 +408,12 @@
       <workItem from="1478805709579" duration="4229000" />
       <workItem from="1478981789596" duration="143000" />
       <workItem from="1479051840731" duration="3547000" />
-      <workItem from="1479084800197" duration="3658000" />
+      <workItem from="1479084800197" duration="6690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11589000" />
+    <option name="totallyTimeSpent" value="14621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -890,14 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/liste-view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -926,11 +843,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/App/donnees/ProjetDao.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="187" selection-start-line="23" selection-start-column="187" selection-end-line="23" selection-end-column="187" />
+        <state relative-caret-position="300">
+          <caret line="22" column="127" selection-start-line="22" selection-start-column="127" selection-end-line="22" selection-end-column="127" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>

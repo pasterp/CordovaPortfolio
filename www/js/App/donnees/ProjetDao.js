@@ -20,8 +20,8 @@ var ProjetsDao = function () {
 
     var dao = {
         listeProjets: [
-            new Projet("Roguelike", "Petit roguelike axé sur la génération procédurale.", "#", "./img/roguelike.png"),
-            new Projet("Livre dont vous êtes le héros", "Interpréteur intéractif permettant de jouer à des histoires où le joueur a le choix lors de son aventure.", "#", "./img/livres.jpg")
+            new Projet("Roguelike", "Petit roguelike axé sur la génération procédurale.", "https://github.com/pasterp/RogueLike", "./img/roguelike.png"),
+            new Projet("Livre dont vous êtes le héros", "Interpréteur intéractif permettant de jouer à des histoires où le joueur a le choix lors de son aventure.", "https://github.com/pasterp/LivreDontVousEtesLeHeros/", "./img/livres.jpg")
         ],
 
         getProjet : function (id) {
