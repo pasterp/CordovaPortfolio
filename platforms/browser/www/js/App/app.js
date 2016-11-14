@@ -5,11 +5,12 @@
 
 var controller = null;
 var app = {
-    // Application Constructor
+    // Constructeur Application
     initialize: function() {
         if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/)) {
-            document.addEventListener("deviceready", this.onDeviceReady, false);
+            document.addEventListener("deviceready", this.onDeviceReady, false); //Si c'est un mobile, cordova.js va envoyer l'event deviceRaady
         } else {
+            //Sinon on le simule nous même
             this.onDeviceReady();
         }
     },
@@ -17,7 +18,7 @@ var app = {
     onDeviceReady: function() {
         controller = new Controller();
 
-        setTimeout(function() { controller.renderListeVue(); }, 1500);
+        setTimeout(function() { controller.renderListeVue(); }, 500);
     }
 };
 app.initialize();
