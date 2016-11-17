@@ -2,13 +2,12 @@
  * Created by pascal on 16-11-14.
  */
 
-var DetailProjetVue = function(dao) {
-    var ProjetsDao = dao;
+var DetailProjetVue = function() {
+
 
     var vue = {
-        afficher : function(id) {
-            $('#template-loader').load("./views/detail-view.html", function (data) {
-                var projet = dao.getProjet(id);
+        afficher : function(projet) {
+            $('#template-loader').load("./views/detail-vue.html", function (data) {
                 $('#content').html(
                     data
                         .replace(/\{\{PROJET_TITRE\}\}/g, projet.nomProjet)

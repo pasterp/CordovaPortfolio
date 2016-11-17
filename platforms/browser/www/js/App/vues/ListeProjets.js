@@ -2,17 +2,16 @@
  * Created by pascal on 16-11-13.
  */
 
-var ListeProjetsVue = function(dao) {
-    var ListeVueDao = dao;
+var ListeProjetsVue = function() {
 
     var vue = {
-        afficher : function() {
-            $('#content').load("./views/liste-view.html", function (data) {
+        afficher : function(liste) {
+            $('#content').load("./views/liste-vue.html", function (data) {
 
                 $('#template-loader').load('./views/templates/ProjetCard.html', function (template) {
                     $('#content').append('<div class="row">');
-                    for(i in ListeVueDao.listeProjets) {
-                        var projet = ListeVueDao.listeProjets[i];
+                    for(i in liste) {
+                        var projet = liste[i];
 
                         $('#content').append(
                             template

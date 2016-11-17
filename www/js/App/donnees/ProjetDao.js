@@ -3,21 +3,20 @@
  */
 
 var id = 0;
-var ProjetsDao = function () {
-
-    var Projet = function (nom, description, lien, photo, dateDebut, dateFin) {
-        var projet = {
-            self : this,
-            id : id++,
-            nomProjet:nom,
-            descriptionProjet : description,
-            lienProjet : lien,
-            photoProjet : photo
-        };
-
-        return projet;
+var Projet = function (nom, description, lien, photo, dateDebut, dateFin, idP) {
+    var projet = {
+        self : this,
+        id : id++,
+        nomProjet:nom,
+        descriptionProjet : description,
+        lienProjet : lien,
+        photoProjet : photo
     };
 
+    return projet;
+};
+
+var ProjetsDao = function () {
     var dao = {
         listeProjets: [
             new Projet("Roguelike", "Petit roguelike axé sur la génération procédurale.", "https://github.com/pasterp/RogueLike", "./img/roguelike.png"),
@@ -31,6 +30,10 @@ var ProjetsDao = function () {
                     return projet
                 }
             }
+        },
+
+        addProjet : function (projet) {
+            this.listeProjets.push(projet);
         }
     };
 
