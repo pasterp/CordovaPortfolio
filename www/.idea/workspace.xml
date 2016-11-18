@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090c6140-5d0f-47d4-8a0f-4cd4830f2353" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/views/ajout-vue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/views/detail-vue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/views/liste-vue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/views/templates/ProjetCard.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -14,20 +9,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/build/package.zip" afterPath="$PROJECT_DIR$/../platforms/browser/build/package.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/css/custom.css" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/controlleurs/controller.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/controlleurs/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/donnees/ProjetDao.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/donnees/ProjetDao.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/vues/AjoutProjet.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/vues/AjoutProjet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/vues/DétailProjet.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/vues/DétailProjet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/vues/ListeProjets.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/vues/ListeProjets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/js/App/controlleurs/controller.js" afterPath="$PROJECT_DIR$/../platforms/browser/www/js/App/controlleurs/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/js/App/vues/AjoutProjet.js" afterPath="$PROJECT_DIR$/../platforms/browser/www/js/App/vues/AjoutProjet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/js/App/vues/EditionProjet.js" afterPath="$PROJECT_DIR$/../platforms/browser/www/js/App/vues/EditionProjet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/vues/ajout-vue.html" afterPath="$PROJECT_DIR$/../platforms/browser/www/vues/ajout-vue.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/css/custom.css" afterPath="$PROJECT_DIR$/../platforms/browser/www/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/../platforms/browser/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App/controlleurs/controller.js" afterPath="$PROJECT_DIR$/js/App/controlleurs/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App/vues/AjoutProjet.js" afterPath="$PROJECT_DIR$/js/App/vues/AjoutProjet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App/vues/EditionProjet.js" afterPath="$PROJECT_DIR$/js/App/vues/EditionProjet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +35,18 @@
     <favorites_list name="www" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="71" column="17" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="71" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/js/controller.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/donnees/ProjetDao.js" />
@@ -78,7 +76,6 @@
         <option value="$PROJECT_DIR$/vues/templates/deleteConfirmation.html" />
         <option value="$PROJECT_DIR$/js/App/vues/ListeProjets.js" />
         <option value="$PROJECT_DIR$/vues/detail-vue.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/App/vues/DétailProjet.js" />
         <option value="$PROJECT_DIR$/vues/edition-vue.html" />
         <option value="$PROJECT_DIR$/js/App/donnees/ProjetDao.js" />
@@ -86,6 +83,8 @@
         <option value="$PROJECT_DIR$/js/App/vues/EditionProjet.js" />
         <option value="$PROJECT_DIR$/js/App/vues/AjoutProjet.js" />
         <option value="$PROJECT_DIR$/js/App/controlleurs/controller.js" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -239,6 +238,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -342,18 +355,18 @@
       <workItem from="1479135615333" duration="7031000" />
       <workItem from="1479390564451" duration="10334000" />
       <workItem from="1479412881836" duration="137000" />
-      <workItem from="1479434059113" duration="8111000" />
+      <workItem from="1479434059113" duration="10306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40770000" />
+    <option name="totallyTimeSpent" value="42965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26302084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26302084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -656,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vues/templates/ProjetCard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -681,14 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="74" lean-forward="false" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="81" column="72" lean-forward="false" selection-start-line="81" selection-start-column="72" selection-end-line="81" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -796,6 +794,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="71" column="17" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="71" selection-end-column="17" />
           <folding />
         </state>
       </provider>

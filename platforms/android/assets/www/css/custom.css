@@ -68,3 +68,40 @@ body {
         height: 0%;
     }
 }
+
+.fab {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    height: 50px;
+    width: 50px;
+
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    background-color: #337ab7;
+    border-radius: 50%;
+}
+.fab:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.14), 0 8px 16px rgba(0, 0, 0, 0.28);
+}
+
+.fab:active {
+    background-color: lightskyblue;
+}
+
+.fab-lien {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #FFFFFF;
+    font-size: 36px;
+    vertical-align: center;
+}
+
+.fab-lien:hover {
+    color: #FFFFFF;
+}
+
+.fab-lien:visited {
+    color: #FFFFFF;
+}
