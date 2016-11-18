@@ -10,7 +10,7 @@ var AjoutProjetVue = function(callback) {
             self = this;
         },
         afficher : function() {
-            $('#content').load("./views/ajout-vue.html", function (data) {
+            $('#content').load("./vues/ajout-vue.html", function (data) {
                 $('#content').find('#form-ajout').on('submit', self.ajouterProjet);
             });
         },

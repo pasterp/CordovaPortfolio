@@ -62,7 +62,21 @@ var Controller = function () {
                 if (base == 'projets'){
                     this.renderListeVue()
                 }else if (base == 'projet'){
-                    this.renderDetailProjet(parametres[0])
+                    var id = parametres[0];
+                    var action = parametres[1];
+                    if (action == undefined)
+                        this.renderDetailProjet(id);
+                    else if (action == "delete"){
+                        if(confirm("Confirmer la suppression de "+this.projetsDAO.getProjet(id).nomProjet+" ?")){
+                            this.projetsDAO.delProjet(id);
+                            window.location.hash = "#projets";
+                        }else{
+                            window.location.hash = "#projet/"+id;
+                        }
+                    }else if (action == "edit"){
+
+                    }else
+                        this.renderErreur404();
                 }else if (base == 'ajout') {
                     this.renderAjout()
                 }else{

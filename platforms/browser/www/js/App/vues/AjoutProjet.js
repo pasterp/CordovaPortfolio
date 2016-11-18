@@ -10,7 +10,7 @@ var AjoutProjetVue = function(callback) {
             self = this;
         },
         afficher : function() {
-            $('#content').load("./views/ajout-vue.html", function (data) {
+            $('#content').load("./vues/ajout-vue.html", function (data) {
                 $('#content').find('#form-ajout').on('submit', self.ajouterProjet);
             });
         },
@@ -20,9 +20,9 @@ var AjoutProjetVue = function(callback) {
             var nom = $('#nomProjet');
             var description  = $('#descProjet');
             var lien = $('#lienProjet');
-            self.callback_ajout(new Projet(nom.val(), description.val(), lien.val()));
+            self.callback_ajout(new Projet(nom.val(), description.val(), lien.val(), './img/default.jpg'));
 
-            //TODO: Notifier l'ajout
+            //Notifier l'ajout
             nom.val('');
             description.val('');
             lien.val('');
@@ -31,7 +31,6 @@ var AjoutProjetVue = function(callback) {
                 'Élément ajouté! <a href="#projets" class="alert-link">Voir les projets.</a> ' +
                 '</div>');
             window.setTimeout(function() { $(".alert-dismissible").alert('close'); }, 2000);
-            //alert('Projet : '+ nom + '\n' + description + ' ' + lien);
         }
     };
 

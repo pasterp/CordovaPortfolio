@@ -24,7 +24,7 @@ var ProjetsDao = function () {
         ],
 
         getProjet : function (id) {
-            for(i in dao.listeProjets) {
+            for(var i in dao.listeProjets) {
                 var projet = dao.listeProjets[i];
                 if (projet.id == id){
                     return projet
@@ -34,6 +34,16 @@ var ProjetsDao = function () {
 
         addProjet : function (projet) {
             this.listeProjets.push(projet);
+        },
+
+        delProjet : function (id) {
+            for(var i in this.listeProjets) {
+                var projet = this.listeProjets[i];
+                if (projet.id == id) {
+                    dao.listeProjets.splice(i, 1);
+                    break;
+                }
+            }
         }
     };
 
