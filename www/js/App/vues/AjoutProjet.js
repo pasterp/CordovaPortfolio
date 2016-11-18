@@ -1,22 +1,20 @@
 /**
  * Created by pascal on 16-11-17.
  */
-
 var AjoutProjetVue = function(callback) {
+    var self = null;
     var vue = {
-        self : null,
         callback_ajout : callback,
         initialize : function () {
             self = this;
         },
         afficher : function() {
-            $('#content').load("./vues/ajout-vue.html", function (data) {
-                $('#content').find('#form-ajout').on('submit', function (e) {
-                    self.ajouterProjet(e);
-                });
+            $('#template-loader').load("./vues/ajout-vue.html", function (data) {
+                var content = $('#content');
+                content.html(data);
+                content.find('#form-ajout').submit(self.ajouterProjet);
             });
         },
-
         ajouterProjet : function (e) {
             e.preventDefault();
 

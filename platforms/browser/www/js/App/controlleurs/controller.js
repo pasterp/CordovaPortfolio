@@ -7,8 +7,8 @@ String.prototype.capitalizeFirstLetter = function() {
 }
 
 var Controller = function () {
+    var self = null;
     var controller = {
-        self: null,
         projetsDAO : null,
         vueListeProjets : null,
         vueDetailProjet : null,
@@ -21,7 +21,7 @@ var Controller = function () {
             this.vueListeProjets = new ListeProjetsVue();
             this.vueDetailProjet = new DetailProjetVue();
             this.vueAjoutProjet = new AjoutProjetVue($.proxy(this.ajouterProjet, this));
-            this.vueEditionProjet = new EditionProjetVue($.proxy(this.editerProjet, this))
+            this.vueEditionProjet = new EditionProjetVue($.proxy(this.editerProjet, this));
         },
 
         renderListeVue: function () {

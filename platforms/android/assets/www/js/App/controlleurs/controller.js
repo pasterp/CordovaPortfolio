@@ -7,12 +7,13 @@ String.prototype.capitalizeFirstLetter = function() {
 }
 
 var Controller = function () {
+    var self = null;
     var controller = {
-        self: null,
         projetsDAO : null,
         vueListeProjets : null,
         vueDetailProjet : null,
         vueAjoutProjet : null,
+        vueEditionProjet : null,
 
         initialize: function () {
             self = this;
@@ -20,6 +21,7 @@ var Controller = function () {
             this.vueListeProjets = new ListeProjetsVue();
             this.vueDetailProjet = new DetailProjetVue();
             this.vueAjoutProjet = new AjoutProjetVue($.proxy(this.ajouterProjet, this));
+            this.vueEditionProjet = new EditionProjetVue($.proxy(this.editerProjet, this));
         },
 
         renderListeVue: function () {
@@ -40,6 +42,12 @@ var Controller = function () {
         },
         ajouterProjet: function (projet) {
             this.projetsDAO.addProjet(projet);
+        },
+        renderEdition: function (id) {
+            this.vueEditionProjet.afficher(this.projetsDAO.getProjet(id));
+        },
+        editerProjet: function (id, projet) {
+            this.projetsDAO.editProjet(id, projet);
         },
 
         hashChanged : function (data) {
@@ -62,7 +70,21 @@ var Controller = function () {
                 if (base == 'projets'){
                     this.renderListeVue()
                 }else if (base == 'projet'){
-                    this.renderDetailProjet(parametres[0])
+                    var id = parametres[0];
+                    var action = parametres[1];
+                    if (action == undefined)
+                        this.renderDetailProjet(id);
+                    else if (action == "delete"){
+                        if(confirm("Confirmer la suppression de "+this.projetsDAO.getProjet(id).nomProjet+" ?")){
+                            this.projetsDAO.delProjet(id);
+                            window.location.hash = "#projets";
+                        }else{
+                            window.location.hash = "#projet/"+id;
+                        }
+                    }else if (action == "edit"){
+                        this.renderEdition(id);
+                    }else
+                        this.renderErreur404();
                 }else if (base == 'ajout') {
                     this.renderAjout()
                 }else{

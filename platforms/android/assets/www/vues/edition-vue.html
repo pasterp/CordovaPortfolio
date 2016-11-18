@@ -4,24 +4,26 @@
 
 <h1>Ajouter un projet</h1>
 
-<form id="form-ajout" class="form-horizontal" action="#projets">
+<form id="form-edition" class="form-horizontal" action="#projet/{{PROJET_ID}}/edit/">
+    <input id="idProjet" type="hidden" value="{{PROJET_ID}}">
+    <input id="imageProjet" type="hidden" value="{{PROJET_IMAGE}}">
     <div class="form-group">
         <label for="nomProjet">Nom du projet: </label>
-        <input type="text" id="nomProjet">
+        <input type="text" id="nomProjet" value="{{PROJET_TITRE}}">
     </div>
 
     <div class="form-group">
         <label for="descProjet">Description: </label>
-        <input type="text" id="descProjet">
+        <input type="text" id="descProjet" value="{{PROJET_DESCRIPTION}}">
     </div>
 
     <div class="form-group">
         <label for="lienProjet">Lien du projet: </label>
-        <input type="url" id="lienProjet">
+        <input type="url" id="lienProjet" value="{{PROJET_LIEN}}">
     </div>
 
     <div class="btn-group">
-        <button type="submit" id="valider" class="btn btn-primary btn-success">Ajouter</button>
+        <button type="submit" id="valider" class="btn btn-primary btn-success">Sauvegarder</button>
         <a type="button" id="reset" class="btn btn-primary btn-warning" href="#projets">Annuler</a>
     </div>
 </form>

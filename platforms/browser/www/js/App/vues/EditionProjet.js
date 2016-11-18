@@ -3,8 +3,8 @@
  */
 
 var EditionProjetVue = function(callback) {
+    var self = null;
     var vue = {
-        self : null,
         callback : callback,
         initialize : function () {
             self = this;
@@ -23,6 +23,7 @@ var EditionProjetVue = function(callback) {
         },
         editerProjet : function (e) {
             e.preventDefault();
+
 
             var id = $('#idProjet');
             var nom = $('#nomProjet');

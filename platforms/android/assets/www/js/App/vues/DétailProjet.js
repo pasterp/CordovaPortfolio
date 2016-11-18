@@ -7,7 +7,7 @@ var DetailProjetVue = function() {
 
     var vue = {
         afficher : function(projet) {
-            $('#template-loader').load("./views/detail-vue.html", function (data) {
+            $('#template-loader').load("./vues/detail-vue.html", function (data) {
                 $('#content').html(
                     data
                         .replace(/\{\{PROJET_TITRE\}\}/g, projet.nomProjet)
