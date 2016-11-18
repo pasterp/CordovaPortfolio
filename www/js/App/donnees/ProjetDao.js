@@ -44,6 +44,15 @@ var ProjetsDao = function () {
                     break;
                 }
             }
+        },
+
+        editProjet: function (id, p) {
+            var projet = this.getProjet(id);
+
+            projet.nomProjet = p.nomProjet;
+            projet.descriptionProjet = p.descriptionProjet;
+            projet.lienProjet = p.lienProjet;
+            projet.photoProjet = p.photoProjet;
         }
     };
 

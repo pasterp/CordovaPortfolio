@@ -13,6 +13,7 @@ var Controller = function () {
         vueListeProjets : null,
         vueDetailProjet : null,
         vueAjoutProjet : null,
+        vueEditionProjet : null,
 
         initialize: function () {
             self = this;
@@ -20,6 +21,7 @@ var Controller = function () {
             this.vueListeProjets = new ListeProjetsVue();
             this.vueDetailProjet = new DetailProjetVue();
             this.vueAjoutProjet = new AjoutProjetVue($.proxy(this.ajouterProjet, this));
+            this.vueEditionProjet = new EditionProjetVue($.proxy(this.editerProjet, this))
         },
 
         renderListeVue: function () {
@@ -40,6 +42,12 @@ var Controller = function () {
         },
         ajouterProjet: function (projet) {
             this.projetsDAO.addProjet(projet);
+        },
+        renderEdition: function (id) {
+            this.vueEditionProjet.afficher(this.projetsDAO.getProjet(id));
+        },
+        editerProjet: function (id, projet) {
+            this.projetsDAO.editProjet(id, projet);
         },
 
         hashChanged : function (data) {
@@ -74,7 +82,7 @@ var Controller = function () {
                             window.location.hash = "#projet/"+id;
                         }
                     }else if (action == "edit"){
-
+                        this.renderEdition(id);
                     }else
                         this.renderErreur404();
                 }else if (base == 'ajout') {

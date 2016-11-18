@@ -11,9 +11,12 @@ var AjoutProjetVue = function(callback) {
         },
         afficher : function() {
             $('#content').load("./vues/ajout-vue.html", function (data) {
-                $('#content').find('#form-ajout').on('submit', self.ajouterProjet);
+                $('#content').find('#form-ajout').on('submit', function (e) {
+                    self.ajouterProjet(e);
+                });
             });
         },
+
         ajouterProjet : function (e) {
             e.preventDefault();
 
