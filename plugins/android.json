@@ -12,6 +12,9 @@
         },
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "me.phelipot.portfolio"
+        },
+        "cordova-plugin-email-composer": {
+            "PACKAGE_NAME": "me.phelipot.portfolio"
         }
     },
     "dependent_plugins": {

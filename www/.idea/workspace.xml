@@ -2,32 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090c6140-5d0f-47d4-8a0f-4cd4830f2353" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/App/vues/Contact.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vues/contact-vue.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/../platforms/android/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="$PROJECT_DIR$/../platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/build/package.zip" afterPath="$PROJECT_DIR$/../platforms/browser/build/package.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/../platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/android.json" afterPath="$PROJECT_DIR$/../platforms/android/android.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/donnees/ProjetDaoLocal.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/donnees/ProjetDaoLocal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/vues/AjoutProjet.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/vues/AjoutProjet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/vues/DétailProjet.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/vues/DétailProjet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/vues/ajout-vue.html" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/vues/ajout-vue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/vues/detail-vue.html" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/vues/detail-vue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/vues/templates/ProjetCard.html" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/vues/templates/ProjetCard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/js/App/donnees/ProjetDaoLocal.js" afterPath="$PROJECT_DIR$/../platforms/browser/www/js/App/donnees/ProjetDaoLocal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/js/App/vues/AjoutProjet.js" afterPath="$PROJECT_DIR$/../platforms/browser/www/js/App/vues/AjoutProjet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/js/App/vues/DétailProjet.js" afterPath="$PROJECT_DIR$/../platforms/browser/www/js/App/vues/DétailProjet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/vues/ajout-vue.html" afterPath="$PROJECT_DIR$/../platforms/browser/www/vues/ajout-vue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/vues/detail-vue.html" afterPath="$PROJECT_DIR$/../platforms/browser/www/vues/detail-vue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/vues/templates/ProjetCard.html" afterPath="$PROJECT_DIR$/../platforms/browser/www/vues/templates/ProjetCard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/controlleurs/controller.js" afterPath="$PROJECT_DIR$/../platforms/android/assets/www/js/App/controlleurs/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/../platforms/android/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/../platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/browser.json" afterPath="$PROJECT_DIR$/../platforms/browser/browser.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/../platforms/browser/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/../platforms/browser/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/../platforms/browser/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../platforms/browser/www/js/App/controlleurs/controller.js" afterPath="$PROJECT_DIR$/../platforms/browser/www/js/App/controlleurs/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../plugins/android.json" afterPath="$PROJECT_DIR$/../plugins/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../plugins/browser.json" afterPath="$PROJECT_DIR$/../plugins/browser.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../plugins/fetch.json" afterPath="$PROJECT_DIR$/../plugins/fetch.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App/donnees/ProjetDaoLocal.js" afterPath="$PROJECT_DIR$/js/App/donnees/ProjetDaoLocal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App/vues/AjoutProjet.js" afterPath="$PROJECT_DIR$/js/App/vues/AjoutProjet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App/vues/DétailProjet.js" afterPath="$PROJECT_DIR$/js/App/vues/DétailProjet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vues/ajout-vue.html" afterPath="$PROJECT_DIR$/vues/ajout-vue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vues/detail-vue.html" afterPath="$PROJECT_DIR$/vues/detail-vue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vues/templates/ProjetCard.html" afterPath="$PROJECT_DIR$/vues/templates/ProjetCard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App/controlleurs/controller.js" afterPath="$PROJECT_DIR$/js/App/controlleurs/controller.js" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,14 +55,57 @@
     <favorites_list name="www" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="contact-vue.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vues/contact-vue.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="76" lean-forward="false" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/App/vues/Contact.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/App/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="66" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -80,15 +131,18 @@
         <option value="$PROJECT_DIR$/js/App/donnees/ProjetDao.js" />
         <option value="$PROJECT_DIR$/js/App/vues/EditionProjet.js" />
         <option value="$PROJECT_DIR$/css/custom.css" />
-        <option value="$PROJECT_DIR$/js/App/controlleurs/controller.js" />
         <option value="$PROJECT_DIR$/js/App/donnees/ProjetDaoBDD.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/vues/templates/ProjetCard.html" />
         <option value="$PROJECT_DIR$/vues/ajout-vue.html" />
         <option value="$PROJECT_DIR$/js/App/vues/AjoutProjet.js" />
         <option value="$PROJECT_DIR$/js/App/donnees/ProjetDaoLocal.js" />
         <option value="$PROJECT_DIR$/vues/detail-vue.html" />
         <option value="$PROJECT_DIR$/js/App/vues/DétailProjet.js" />
+        <option value="$PROJECT_DIR$/vues/templates/contact-vue.html" />
+        <option value="$PROJECT_DIR$/js/App/controlleurs/controller.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/App/vues/Contact.js" />
+        <option value="$PROJECT_DIR$/vues/contact-vue.html" />
       </list>
     </option>
   </component>
@@ -299,6 +353,7 @@
       <recent name="$PROJECT_DIR$/vues" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vues" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/js/App" />
       <recent name="$PROJECT_DIR$/js/controlleurs" />
@@ -385,18 +440,18 @@
       <workItem from="1479434059113" duration="11026000" />
       <workItem from="1479859069017" duration="8117000" />
       <workItem from="1479993952600" duration="132000" />
-      <workItem from="1479994241625" duration="4373000" />
+      <workItem from="1479994241625" duration="7584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56307000" />
+    <option name="totallyTimeSpent" value="59518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26302084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26302084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -436,23 +491,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/App/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/App/donnees/ProjetDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/App/vues/ListeProjets.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -466,8 +504,8 @@
           <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
-            <marker date="1479864413068" expanded="true" signature="1210:1225" ph="..." />
-            <marker date="1479864413068" expanded="true" signature="1258:1270" ph="..." />
+            <marker date="1479999318004" expanded="true" signature="1284:1299" ph="..." />
+            <marker date="1479999318004" expanded="true" signature="1332:1344" ph="..." />
           </folding>
         </state>
       </provider>
@@ -564,8 +602,8 @@
           <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
-            <marker date="1479864413068" expanded="true" signature="1210:1225" ph="..." />
-            <marker date="1479864413068" expanded="true" signature="1258:1270" ph="..." />
+            <marker date="1479999318004" expanded="true" signature="1284:1299" ph="..." />
+            <marker date="1479999318004" expanded="true" signature="1332:1344" ph="..." />
           </folding>
         </state>
       </provider>
@@ -698,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -737,42 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="79" column="73" lean-forward="false" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/App/controlleurs/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-            <marker date="1479864413068" expanded="true" signature="1210:1225" ph="..." />
-            <marker date="1479864413068" expanded="true" signature="1258:1270" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/App/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/liste-vue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vues/edition-vue.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -789,14 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/App/donnees/ProjetDaoLocal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="7666" lean-forward="false" selection-start-line="63" selection-start-column="7666" selection-end-line="63" selection-end-column="7666" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/App/vues/AjoutProjet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -807,20 +794,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/ajout-vue.html">
+    <entry file="file://$PROJECT_DIR$/vues/liste-vue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#3;n#form#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/App/vues/DétailProjet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="285">
+          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -832,6 +817,80 @@
           <folding>
             <element signature="n#src#0;n#img#0;n#a#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/ajout-vue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/App/donnees/ProjetDaoLocal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding>
+            <element signature="e#1656#89656#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="65" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/App/controlleurs/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="84" column="60" lean-forward="false" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+            <marker date="1479999318004" expanded="true" signature="1284:1299" ph="..." />
+            <marker date="1479999318004" expanded="true" signature="1332:1344" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/App/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="66" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/App/vues/Contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/contact-vue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="76" lean-forward="false" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>

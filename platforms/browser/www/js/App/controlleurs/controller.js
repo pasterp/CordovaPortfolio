@@ -14,6 +14,7 @@ var Controller = function () {
         vueDetailProjet : null,
         vueAjoutProjet : null,
         vueEditionProjet : null,
+        vueContact: null,
 
         initialize: function () {
             self = this;
@@ -22,6 +23,7 @@ var Controller = function () {
             this.vueDetailProjet = new DetailProjetVue();
             this.vueAjoutProjet = new AjoutProjetVue($.proxy(this.ajouterProjet, this));
             this.vueEditionProjet = new EditionProjetVue($.proxy(this.editerProjet, this));
+            this.vueContact = new ContactVue();
         },
 
         renderListeVue: function () {
@@ -48,6 +50,9 @@ var Controller = function () {
         },
         editerProjet: function (id, projet) {
             this.projetsDAO.editProjet(id, projet);
+        },
+        renderContact : function () {
+            this.vueContact.afficher();
         },
 
         hashChanged : function (data) {
@@ -87,6 +92,8 @@ var Controller = function () {
                         this.renderErreur404();
                 }else if (base == 'ajout') {
                     this.renderAjout()
+                }else if (base == 'contact'){
+                    this.renderContact();
                 }else{
                     this.renderErreur404()
                 }
