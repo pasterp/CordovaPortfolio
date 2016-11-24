@@ -3,13 +3,13 @@
 </a></p>
 
 <div class="thumbnail">
-    <a href="#projet/{{PROJET_ID}}"><img src="{{PROJET_IMAGE}}" alt="{{PROJET_TITRE}}"></a>
+    <a href="#projet/{{PROJET_ID}}"><img src="data:image/jpeg;base64,{{PROJET_IMAGE}}" alt="{{PROJET_TITRE}}"></a>
     <div class="caption">
         <h3 class="card-title"><a href="#projet/{{PROJET_ID}}">{{PROJET_TITRE}}</a></h3>
         <p class="card-text">{{PROJET_DESCRIPTION}}</p>
 
         <div class="btn-group btn-group-justified">
-            <a href="{{PROJET_LIEN}}" class="btn btn-primary"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Site du projet</a>
+            <a id="detailLienProjet" href="{{PROJET_LIEN}}" class="btn btn-primary"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Site du projet</a>
             <a class="btn btn-warning" href="#projet/{{PROJET_ID}}/edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Éditer</a>
             <a class="btn btn-danger" href="#projet/{{PROJET_ID}}/delete"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Supprimer</a>
         </div>

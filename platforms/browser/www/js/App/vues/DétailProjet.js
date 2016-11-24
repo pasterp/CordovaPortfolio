@@ -16,6 +16,10 @@ var DetailProjetVue = function() {
                         .replace(/\{\{PROJET_IMAGE\}\}/g, projet.photoProjet)
                         .replace(/\{\{PROJET_ID\}\}/g, projet.id)
                 )
+
+                var detail = $('#detailLienProjet');
+                if(!detail.attr('href'))
+                    detail.addClass('disabled');
             });
         }
     };
