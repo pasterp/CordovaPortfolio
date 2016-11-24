@@ -26,7 +26,7 @@ var Controller = function () {
 
         renderListeVue: function () {
             this.vueListeProjets.afficher(
-                this.projetsDAO.listeProjets
+                this.projetsDAO.getProjets()
             );
         },
         renderDetailProjet : function (idProjet) {
