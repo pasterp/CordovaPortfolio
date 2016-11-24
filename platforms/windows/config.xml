@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="me.phelipot.portfolio" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Portfolio</name>
+    <description>
+        Simple app to show your different project with a portfolio like.
+    </description>
+    <author email="pascal.phelipot@gmail.com" href="https://phelipot.me">
+        Pascal P.
+    </author>
+    <content src="index.html" />
+    <icon src="www/img/favicon.png" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>

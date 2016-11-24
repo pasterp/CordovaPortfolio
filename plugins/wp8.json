@@ -1,0 +1,25 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "{fa7c49c0-b261-11e6-84ba-d75a6a32d9c5}"
+        },
+        "cordova-plugin-email-composer": {
+            "PACKAGE_NAME": "{fa7c49c0-b261-11e6-84ba-d75a6a32d9c5}"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "{fa7c49c0-b261-11e6-84ba-d75a6a32d9c5}"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "{fa7c49c0-b261-11e6-84ba-d75a6a32d9c5}"
+        }
+    }
+}

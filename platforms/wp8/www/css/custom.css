@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+    text-align: center;
+}
+
+body {
+    background-color: #Fff;
+}
+
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border: 4px solid #242F3F;
+    top: 45%;
+    animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #242F3F;
+    animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-inner {
+    0% {
+        height: 0%;
+    }
+
+    25% {
+        height: 0%;
+    }
+
+    50% {
+        height: 100%;
+    }
+
+    75% {
+        height: 100%;
+    }
+
+    100% {
+        height: 0%;
+    }
+}
+
+.fab {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    height: 50px;
+    width: 50px;
+
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    background-color: #337ab7;
+    border-radius: 50%;
+}
+.fab:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.14), 0 8px 16px rgba(0, 0, 0, 0.28);
+}
+
+.fab:active {
+    background-color: lightskyblue;
+}
+
+.fab-lien {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #FFFFFF;
+    font-size: 36px;
+    vertical-align: center;
+}
+
+.fab-lien:hover {
+    color: #FFFFFF;
+}
+
+.fab-lien:visited {
+    color: #FFFFFF;
+}
